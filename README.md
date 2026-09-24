@@ -4,14 +4,9 @@
 
 **Turn any picture into a Balatro card.**
 
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-FE5F55?style=for-the-badge)](https://github.com/nanoqoi/jokers-atelier-studio/releases/latest/download/Jokers-Atelier-Studio-Windows-Setup.exe)
-[![Download for Mac with an Apple chip](<https://img.shields.io/badge/Download-Mac%20(Apple%20chip)-009DFF?style=for-the-badge>)](https://github.com/nanoqoi/jokers-atelier-studio/releases/latest/download/Jokers-Atelier-Studio-Mac-Apple-Silicon.dmg)
-[![Download for Mac with an Intel chip](<https://img.shields.io/badge/Download-Mac%20(Intel)-009DFF?style=for-the-badge>)](https://github.com/nanoqoi/jokers-atelier-studio/releases/latest/download/Jokers-Atelier-Studio-Mac-Intel.dmg)
-[![Download for Linux](https://img.shields.io/badge/Download-Linux-FDA200?style=for-the-badge)](https://github.com/nanoqoi/jokers-atelier-studio/releases/latest/download/Jokers-Atelier-Studio-Linux.AppImage)
+[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-FE5F55?style=for-the-badge)](https://github.com/nanoqoi/jokers-atelier-studio/releases/latest/download/Jokers-Atelier-Studio-Windows-Setup.exe)
 
-[![Use it online, nothing to install](https://img.shields.io/badge/Use%20it%20online-jokers.nanoqoi.com-4BC292?style=for-the-badge)](https://jokers.nanoqoi.com)
-
-[All downloads and what changed](https://github.com/nanoqoi/jokers-atelier-studio/releases/latest)
+[What changed](https://github.com/nanoqoi/jokers-atelier-studio/releases/latest)
 
 </div>
 
@@ -40,16 +35,11 @@ The Code view writes the Steamodded code for each card. Values like the rarity c
 
 ## Download and install
 
-Click the button for the computer above. The download starts straight away.
+Click **Download for Windows** above, then run the file it downloads.
 
-To check which Mac it is, open the Apple menu and choose **About This Mac**. A **Chip** line that starts with "Apple" means Apple chip. A **Processor** line that says "Intel" means Intel.
+The app isn't signed with a paid Microsoft certificate yet, so Windows asks before it runs the first time. On "Windows protected your PC", click **More info**, then **Run anyway**.
 
-The app isn't signed with a paid Apple or Microsoft certificate yet, so the computer asks before it opens it the first time.
-
-- **Windows:** On "Windows protected your PC", click **More info**, then **Run anyway**.
-- **Mac:** Open the `.dmg` and drag the app into **Applications**. Open it once and close the warning. Then go to **System Settings**, then **Privacy & Security**, scroll down and click **Open Anyway**.
-- **Mac, if it says the app is damaged:** Open **Terminal**, type `xattr -cr ` with a space at the end, drag the app from **Applications** onto the Terminal window and press Return. Then open the app again.
-- **Linux:** Right-click the `.AppImage`, open **Properties**, and turn on **Allow executing file as program**. Then double-click it. On Ubuntu or Debian, the `.deb` from the [downloads page](https://github.com/nanoqoi/jokers-atelier-studio/releases/latest) installs like any other app.
+Builds for other systems are available on request. [Open an issue](https://github.com/nanoqoi/jokers-atelier-studio/issues/new/choose) to ask for one.
 
 To update, download the new version and install it over the old one. Saved cards stay where they are.
 
@@ -60,7 +50,7 @@ The Studio saves two kinds of file. Double-click either one to open it again.
 - A `.jkr` file is one card.
 - A `.jkrp` file is a pack of cards, the whole mod in one file.
 
-Both show up as a picture of the cards in File Explorer and Finder.
+Both show up as a picture of the cards in File Explorer.
 
 ## Something wrong, or an idea?
 

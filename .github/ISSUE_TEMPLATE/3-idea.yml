@@ -1,15 +1,7 @@
 name: An idea
-description: A new card type, a new effect, or something that could be easier.
+description: A new card type, a new effect, something that could be easier, or a build for another system.
 labels: [idea]
 body:
-  - type: dropdown
-    id: app
-    attributes:
-      label: Where would it go?
-      multiple: true
-      options:
-        - The desktop app (Joker's Atelier Studio)
-        - The website and the downloaded web page
   - type: textarea
     id: idea
     attributes:

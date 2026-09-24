@@ -5,30 +5,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        The first time it opens, the computer warns about the app because it isn't signed yet. The [README](https://github.com/nanoqoi/jokers-atelier-studio#download-and-install) shows how to get past that warning on each computer. If it still won't open, fill this in.
+        The first time it runs, Windows warns about the app because it isn't signed yet. On "Windows protected your PC", click **More info**, then **Run anyway**. If it still won't open, fill this in.
   - type: dropdown
     id: system
     attributes:
-      label: Computer
+      label: Windows version
       options:
         - Windows 11
         - Windows 10
-        - Mac with an Apple chip
-        - Mac with an Intel chip
-        - Linux (AppImage)
-        - Linux (.deb)
-    validations:
-      required: true
-  - type: input
-    id: os-version
-    attributes:
-      label: System version
-      description: For example macOS 15, Ubuntu 24.04 or Windows 11 24H2. Leave it empty if unsure.
-  - type: input
-    id: file
-    attributes:
-      label: Which file was downloaded?
-      placeholder: Jokers-Atelier-Studio-Windows-Setup.exe
     validations:
       required: true
   - type: textarea

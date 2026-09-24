@@ -2,43 +2,6 @@ name: Something isn't working
 description: A button does nothing, a card looks wrong, or the app closes by itself.
 labels: [bug]
 body:
-  - type: dropdown
-    id: app
-    attributes:
-      label: Which one are you using?
-      options:
-        - The desktop app (Joker's Atelier Studio)
-        - The website, jokers.nanoqoi.com
-        - The downloaded web page, jokers-atelier.html
-    validations:
-      required: true
-  - type: dropdown
-    id: system
-    attributes:
-      label: Computer
-      options:
-        - Windows
-        - Mac with an Apple chip
-        - Mac with an Intel chip
-        - Linux (AppImage)
-        - Linux (.deb)
-        - Chromebook
-        - iPhone or iPad
-        - Android phone or tablet
-    validations:
-      required: true
-  - type: dropdown
-    id: browser
-    attributes:
-      label: Browser
-      description: Only for the website or the downloaded web page.
-      options:
-        - Not using a browser
-        - Chrome
-        - Edge
-        - Firefox
-        - Safari
-        - Another browser
   - type: input
     id: version
     attributes:
