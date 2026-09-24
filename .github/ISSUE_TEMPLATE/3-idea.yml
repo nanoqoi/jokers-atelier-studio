@@ -1,0 +1,24 @@
+name: An idea
+description: A new card type, a new effect, or something that could be easier.
+labels: [idea]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: Where would it go?
+      multiple: true
+      options:
+        - The desktop app (Joker's Atelier Studio)
+        - The website and the downloaded web page
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: Say what it should do, and what it would help make.
+    validations:
+      required: true
+  - type: textarea
+    id: pictures
+    attributes:
+      label: Pictures
+      description: A sketch, a screenshot from the game, or a card from another mod helps show it.
